@@ -50,6 +50,11 @@ mvn clean compile
 mvn test
 ```
 
+4. **Ejecutar el programa**
+```bash
+mvn exec:java -Dexec.mainClass="tareaspruebas.junit.Main"
+```
+
 ## Consideraciones Adicionales
 
 Algunas consideraciones para mejorar el proyecto:
